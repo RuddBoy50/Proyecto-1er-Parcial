@@ -48,7 +48,7 @@
 <body>
     <!-- Es aqui en donde se tendra el div del titulo -->
     <div class="principal">
-        <h1>Las mejores peliculas</h1>
+        <h1>Cine el Rudo</h1>
     </div>
 
     <!-- Es aqui en donde se tendra el div de la cartelera -->
