@@ -26,6 +26,27 @@
         .menu a:hover {
             background-color: #555;
         }
+
+        /* Estilos para la cartelera */
+        .cartelera {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .info {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .imagenes {
+            width: 150px;
+            height: 300px;
+            cursor: pointer;
+        }
     </style>
 
 </head>
@@ -43,9 +64,20 @@
         <h1>Cine el Rudo</h1>
     </div>
 
-    <!-- Cartelera y contenido restante -->
+    <!-- Cartelera -->
     <div class="secundaria">
-        <!-- ... Tu código actual para mostrar la cartelera ... -->
+        <h2>Cartelera</h2>
+        <div class="cartelera">
+            <!-- Aquí deberías mostrar dinámicamente la información de la cartelera -->
+            <?php foreach ($peliculas as $pelicula): ?>
+                <div class="info">
+                    <div class="pelicula">
+                        <img src="<?php echo base_url($pelicula['Pelicula_Imagen']); ?>" alt="<?php echo $pelicula['Pelicula_Pelicula']; ?>" class="imagenes" data-bs-toggle="modal" onclick="abrir('<?php echo $pelicula['Pelicula_Pelicula']; ?>')">
+                        <h2><?php echo $pelicula['Pelicula_Pelicula']; ?></h2>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
     </div>
 
 </body>
