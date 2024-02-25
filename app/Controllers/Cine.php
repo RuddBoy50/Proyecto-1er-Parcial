@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
+
 class Cine extends Controller
 {
     public function cine()
@@ -17,26 +18,30 @@ class Cine extends Controller
         return view('formulario');
     }
 
-
-
-    public function calcularPrecio()
+    public function agregarPelicula()
     {
+        // Lógica para manejar la inserción de la película en la base de datos
+        // Asegúrate de validar los datos y manejar la carga de imágenes de manera segura
+
         $nombre = $this->request->getPost('nombre');
-        $entradas = $this->request->getPost('entradas');
-        $pago = $this->request->getPost('pago');
-        
-        if (!$nombre || !$entradas || !$pago) {
-            return redirect()->to(base_url('Cine/formulario'))->with('error', 'Por favor, complete todos los campos.');
-        }
+        $rutaImagen = $this->request->getPost('ruta_imagen');
+        $costo = $this->request->getPost('costo');
 
-        $precio_unitario = 10; // Precio de una entrada
-        $total = $precio_unitario * $entradas;
-        $cambio = $pago - $total;
+        // Aquí deberías validar y procesar la imagen (guardar en el servidor, manejar nombres únicos, etc.)
+        // También deberías validar que los datos son seguros antes de insertarlos en la base de datos.
 
-        // Pasamos los datos necesarios directamente a la vista del formulario
-        return view('formulario', ['nombre' => $nombre, 'total' => $total, 'cambio' => $cambio, 'pago' => $pago]);
+        // Ejemplo de cómo podrías insertar en la base de datos
+        $peliculaModel = new \App\Models\PeliculaModel(); // Asegúrate de tener un modelo asociado
+        $data = [
+            'Pelicula_Pelicula' => $nombre,
+            'Pelicula_Imagen' => $rutaImagen, // Esto es simplificado, deberías procesar la imagen correctamente
+            'Pelicula_Costo' => $costo,
+            'Pelicula_Activo' => 1,
+        ];
+
+        $peliculaModel->insert($data);
+
+        // Después de agregar la película, puedes redirigir al usuario a la cartelera
+        return redirect()->to(base_url('Cine/cine'));
     }
-    
-
-
 }
