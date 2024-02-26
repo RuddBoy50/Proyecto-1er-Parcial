@@ -21,23 +21,23 @@
     <!-- Es aqui en donde se tendra el div de la cartelera -->
     <div class="secundaria">
         <div class="cartelera">
-            <img src="<?php echo base_url('resources/Psinaire.jpeg'); ?>" id="1" alt="Sin Aire" class="imagenes"
+            <img src="<?php echo base_url('resources/charro_negro.jpeg'); ?>" id="1" alt="Charro Negro" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Pasesinos.jpg'); ?>" id="2" alt="Asesinos" class="imagenes"
+            <img src="<?php echo base_url('resources/kunfu_panda.jpg'); ?>" id="2" alt="Kunfu Panda" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Pkiller.jpeg'); ?>" id="3" alt="Killer" class="imagenes"
+            <img src="<?php echo base_url('resources/tren_infinito.jpeg'); ?>" id="3" alt="Tren Infinito" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Psaltburn.jpeg'); ?>" id="4" alt="Saltburn" class="imagenes"
+            <img src="<?php echo base_url('resources/rubias.jpeg'); ?>" id="4" alt="Donde estan las rubias" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Padentro.jpeg'); ?>" id="5" alt="Adentro" class="imagenes"
+            <img src="<?php echo base_url('resources/jujutsu_kaisen.jpeg'); ?>" id="5" alt="Jujutsu Kaisen" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Poppenhaimer.jpg'); ?>" id="6" alt="Openhaimer" class="imagenes"
+            <img src="<?php echo base_url('resources/distrito_rojo.jpg'); ?>" id="6" alt="Distrito Rojo" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Pdejar.jpg'); ?>" id="7" alt="Dejar" class="imagenes"
+            <img src="<?php echo base_url('resources/rudy.jpg'); ?>" id="7" alt="Rudy" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Psaw.jpg'); ?>" id="8" alt="Saw" class="imagenes"
+            <img src="<?php echo base_url('resources/transformers.jpg'); ?>" id="8" alt="Transformers" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/Pnieve.jpg'); ?>" id="9" alt="La sociedad de la nieve"
+            <img src="<?php echo base_url('resources/golpe_bajo.jpg'); ?>" id="9" alt="Golpe Bajo"
                 class="imagenes" data-bs-toggle="modal" data-bs-target="#exampleModal">
 
         </div>

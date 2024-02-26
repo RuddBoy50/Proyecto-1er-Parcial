@@ -32,7 +32,7 @@ class Database extends Config
         'database'     => 'proyectochucho',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
-        'pConnect'     => false,
+        'pConnect'     => true,
         'DBDebug'      => true,
         'charset'      => 'utf8',
         'DBCollat'     => 'utf8_general_ci',
@@ -41,8 +41,8 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 8888,
-        'numberNative' => false,
+        'port'         => 3306,
+        'numberNative' => true,
     ];
 
     /**
