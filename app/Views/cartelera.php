@@ -27,7 +27,7 @@
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="<?php echo base_url('resources/tren_infinito.jpg'); ?>" id="3" alt="Tren Infinito" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/rubias.jpeg'); ?>" id="4" alt="Donde estan las rubias" class="imagenes"
+            <img src="<?php echo base_url('resources/rubias.jpg'); ?>" id="4" alt="Donde estan las rubias" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="<?php echo base_url('resources/jujutsu_kaisen.jpg'); ?>" id="5" alt="Jujutsu Kaisen" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
