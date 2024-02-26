@@ -1,12 +1,12 @@
 /* Estilos generales */
 body {
-    background-color: #f8f9fa; /* Gris claro */
-    color: #495057; /* Gris oscuro */
+    background-color: #f8f9fa;
+    color: #495057;
 }
 
 .principal {
-    background-color: #343a40; /* Gris oscuro para el div principal */
-    color: #ffffff; /* Blanco para el texto dentro de principal */
+    background-color: #343a40;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -22,28 +22,28 @@ body {
 }
 
 .pelicula {
-    background-color: #ffffff; /* Blanco para el fondo del cuadro de la película */
+    background-color: #ffffff;
     padding: 15px;
     margin: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para la modal */
 .modal-content {
-    background-color: #f8f9fa; /* Gris claro para el fondo de la modal */
-    color: #495057; /* Gris oscuro para el texto dentro de la modal */
+    background-color: #f8f9fa;
+    color: #495057;
 }
 
 /* Botones de la modal */
 .btn-primary {
-    background-color: #343a40; /* Gris oscuro para el botón principal */
-    border-color: #343a40; /* Borde del botón principal */
+    background-color: #343a40;
+    border-color: #343a40;
 }
 
 .btn-primary:hover {
-    background-color: #212529; /* Gris más oscuro al pasar el ratón sobre el botón principal */
+    background-color: #212529;
     border-color: #212529;
 }
 

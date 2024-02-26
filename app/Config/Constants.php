@@ -93,4 +93,4 @@ define('EVENT_PRIORITY_NORMAL', 100);
  */
 define('EVENT_PRIORITY_HIGH', 10);
 
-define('BASE_URL', 'http://localhost/ProyectoChuco/public/');
+define('BASE_URL', 'http://localhost/ProyectoChucho/public');

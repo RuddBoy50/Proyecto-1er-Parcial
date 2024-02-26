@@ -1,86 +1,62 @@
 body {
-    background-color: black;
-    color: aliceblue;
-    font-size: x-large;
-    align-items: center;
-    margin: 0 auto;
-
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
 }
-
 
 .principal {
-    background-color: beige;
+    background-color: #e5e5e5;
     text-align: center;
-    align-items: center;
-    font-size:10rem;
-    color: black;
+    font-size: 2rem;
+    color: #333;
+    border-radius: 20px;
     margin: 0 auto;
-    border-radius: 50px;
-    & h1{
-        font-size: 10rem !important;
-    }
 }
-
 
 .secundaria {
-    background-color: beige;
+    background-color: #e5e5e5;
     text-align: center;
-    align-items: center;
-    font-size: medium;
-    color: black;
-    border-radius: 20px;
+    font-size: 1rem;
+    color: #333;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    width: 1100px;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
 }
-
 
 .imagenes {
     width: 250px;
     height: auto;
     margin: 10px;
-    border-radius: 20px;
-    box-shadow: inset;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    /* Transición para animación */
 }
-
 
 .cartelera {
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas iguales */
     grid-gap: 10px;
-    /* Espacio entre las imágenes */
     justify-content: center;
-    /* Centrar el contenido horizontalmente */
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px auto;
 }
 
 .imagenes:hover {
     transform: scale(1.1);
-    /* Escalar la imagen al pasar el cursor sobre ella */
 }
-
 
 .pelicula {
     border: 1px solid #ccc;
-    /* Marco alrededor de la película */
-    border-radius: 20px;
-    /* Bordes redondeados */
+    border-radius: 10px;
     padding: 10px;
     background-color: #f9f9f9;
     transition: transform 0.3s ease;
-    /* Transición para animación */
 }
 
 .pelicula:hover {
     transform: scale(1.04);
-    /* Escalar la película al pasar el cursor sobre ella */
 }
 
 .info {
@@ -88,11 +64,11 @@ body {
 }
 
 .info h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .info p {
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .info ul {
@@ -104,80 +80,66 @@ body {
     margin: 5px 0;
 }
 
-
-
-/* Estilos para el título del modal */
 .modal-title {
-    font-size: 1.5rem; /* Tamaño de fuente */
-    color: #333; /* Color del texto */
+    font-size: 1.5rem;
+    color: #333;
 }
 
-/* Estilos para el botón de cerrar el modal */
 .btn-close {
-    color: #aaa; /* Color del icono del botón */
-    font-size: 1.5rem; /* Tamaño del icono */
-    opacity: 0.7; /* Opacidad del icono */
-    transition: opacity 0.3s; /* Transición de opacidad */
+    color: #666;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    transition: opacity 0.3s;
 }
 
-/* Cambio de opacidad al pasar el cursor sobre el botón de cerrar */
 .btn-close:hover {
     opacity: 1;
 }
 
-/* Estilos para el formulario dentro del modal */
 #purchaseForm {
-    margin-bottom: 0; /* Elimina el margen inferior del formulario */
+    margin-bottom: 0;
 }
 
-/* Estilos para las etiquetas del formulario */
 label {
-    display: block; /* Muestra las etiquetas en una línea separada */
-    margin-bottom: 5px; /* Espacio inferior entre las etiquetas y los campos de entrada */
-    font-weight: bold; /* Texto en negrita */
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
     color: #333;
 }
 
-/* Estilos para los campos de entrada del formulario */
 input[type="text"],
 input[type="number"] {
-    width: 100%; /* Ancho completo del campo de entrada */
-    padding: 0.5rem; /* Relleno interno */
-    margin-bottom: 10px; /* Espacio inferior */
-    border: 1px solid #ccc; /* Borde del campo de entrada */
-    border-radius: 5px; /* Bordes redondeados */
-    box-sizing: border-box; /* Tamaño total del elemento incluyendo el borde */
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-/* Estilos para el botón de cancelar del modal */
 .btn-secondary {
-    background-color: #aaa; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 0.5rem 1rem; /* Relleno interno */
-    margin-right: 10px; /* Margen derecho */
-    transition: background-color 0.3s; /* Transición de color de fondo */
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-right: 10px;
+    transition: background-color 0.3s;
 }
 
-/* Cambio de color de fondo al pasar el cursor sobre el botón de cancelar */
 .btn-secondary:hover {
-    background-color: #888;
+    background-color: #444;
 }
 
-/* Estilos para el botón de comprar del modal */
 .btn-primary {
-    background-color: #007bff; /* Color de fondo */
-    color: #fff; /* Color del texto */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    padding: 0.5rem 1rem; /* Relleno interno */
-    transition: background-color 0.3s; /* Transición de color de fondo */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
 }
 
-/* Cambio de color de fondo al pasar el cursor sobre el botón de comprar */
 .btn-primary:hover {
     background-color: #0056b3;
 }
-
-
