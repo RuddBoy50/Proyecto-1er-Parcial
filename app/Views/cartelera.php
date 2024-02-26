@@ -21,15 +21,15 @@
     <!-- Es aqui en donde se tendra el div de la cartelera -->
     <div class="secundaria">
         <div class="cartelera">
-            <img src="<?php echo base_url('resources/charro_negro.jpeg'); ?>" id="1" alt="Charro Negro" class="imagenes"
+            <img src="<?php echo base_url('resources/charro_negro.jpg'); ?>" id="1" alt="Charro Negro" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="<?php echo base_url('resources/kunfu_panda.jpg'); ?>" id="2" alt="Kunfu Panda" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/tren_infinito.jpeg'); ?>" id="3" alt="Tren Infinito" class="imagenes"
+            <img src="<?php echo base_url('resources/tren_infinito.jpg'); ?>" id="3" alt="Tren Infinito" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="<?php echo base_url('resources/rubias.jpeg'); ?>" id="4" alt="Donde estan las rubias" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
-            <img src="<?php echo base_url('resources/jujutsu_kaisen.jpeg'); ?>" id="5" alt="Jujutsu Kaisen" class="imagenes"
+            <img src="<?php echo base_url('resources/jujutsu_kaisen.jpg'); ?>" id="5" alt="Jujutsu Kaisen" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
             <img src="<?php echo base_url('resources/distrito_rojo.jpg'); ?>" id="6" alt="Distrito Rojo" class="imagenes"
                 data-bs-toggle="modal" data-bs-target="#exampleModal">
